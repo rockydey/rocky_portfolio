@@ -5,16 +5,16 @@ import about from '../../assist/about.png';
 
 const About = () => {
     return (
-        <div className='my-10'>
+        <div className='my-10 mx-5 md:mx-0'>
             <h1 className='text-6xl text-center font-bold'>PROFILE</h1>
             <p className='text-2xl text-center mt-1'>I'm a creative React Developer.</p>
-            <div className='grid grid-cols-3 items-center gap-5 justify-center mx-40 mt-10'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 items-center gap-5 justify-center lg:mx-40 md:mx-28 mt-10'>
                 <div>
                     <h2 className='font-semibold text-3xl mb-4'>About me</h2>
                     <p>Starting a new career to present myself in the dynamic world with my skills, and knowledge for professional career development. I am confident with my skills and I want to grow more. I have a great passion for programming and that passion has derived me towards web development.</p>
                     <p className='mt-2'>I've also learned react.js, node.js, express.js, MongoDB database, and the latest technologies. I build full-stack responsive websites using this modern technology.</p>
                 </div>
-                <div className='mx-auto'>
+                <div className='mx-auto lg:my-0 my-5'>
                     <img className='w-60' src={about} alt="" />
                 </div>
                 <div>

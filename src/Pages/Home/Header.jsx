@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <div class="hero min-h-screen">
                 <div class="hero-content flex-col lg:flex-row-reverse gap-5">
-                    <img style={{boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}} className='w-2/4 rounded-xl' src={banner} alt="" />
+                    <img style={{boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}} className='lg:w-2/4 md:w-3/4 rounded-xl' src={banner} alt="" />
                     <div>
                         <h1 class="text-6xl font-bold bg-secondary text-white py-3 pl-4">Hello!</h1>
                         <h2 className='text-5xl font-light mt-6'>I’m Rocky Dey,</h2>
