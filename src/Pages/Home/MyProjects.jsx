@@ -8,7 +8,7 @@ import project6 from '../../assist/project6.png';
 
 const MyProjects = () => {
     return (
-        <div className='my-10 mx-5 lg:mx-0'>
+        <div className='my-10 mx-5 lg:mx-0' id='myproject'>
             <h1 className='text-5xl text-center font-bold'>My Projects</h1>
             <p className='text-2xl text-center mt-1'>Explore my all latest project with source code.</p>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-8 lg:mx-20'>

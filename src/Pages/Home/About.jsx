@@ -5,7 +5,7 @@ import about from '../../assist/about.png';
 
 const About = () => {
     return (
-        <div className='my-10 mx-5 md:mx-0'>
+        <div className='my-10 mx-5 md:mx-0' id='about'>
             <h1 className='text-5xl text-center font-bold'>PROFILE</h1>
             <p className='text-2xl text-center mt-1'>I'm a creative React Developer.</p>
             <div className='grid lg:grid-cols-3 grid-cols-1 items-center gap-5 justify-center lg:mx-40 md:mx-28 mt-10'>
