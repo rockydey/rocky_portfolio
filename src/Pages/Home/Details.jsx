@@ -8,12 +8,12 @@ import project6 from '../../assist/project6.png';
 
 const Details = () => {
     return (
-        <div className='mx-20 my-20'>
-            <div className='flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
+        <div className='lg:mx-20 my-20'>
+            <div className='lg:flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
                 <div>
                     <img className='rounded-2xl' src={project1} alt="" />
                 </div>
-                <div className='pr-10'>
+                <div className='lg:pr-10 lg:px-0 px-3'>
                     <h2 className='text-2xl font-semibold'>Revo Part's Manufacture</h2>
                     <p className='text-lg mt-3'>A manufacturing website where users can buy car part's.</p>
                     <div className='text-normal my-4'>
@@ -31,11 +31,11 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
+            <div className='lg:flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
                 <div>
                     <img className='rounded-2xl' src={project2} alt="" />
                 </div>
-                <div className='pr-10'>
+                <div className='lg:pr-10 lg:px-0 px-3'>
                     <h2 className='text-2xl font-semibold'>Gadget House</h2>
                     <p className='text-lg mt-3'>A management warehouse website where electronic gadgets are stocked.</p>
                     <div className='text-normal my-4'>
@@ -53,11 +53,11 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
+            <div className='lg:flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
                 <div>
                     <img className='rounded-2xl' src={project3} alt="" />
                 </div>
-                <div className='pr-10'>
+                <div className='lg:pr-10 lg:px-0 px-3'>
                     <h2 className='text-2xl font-semibold'>Davis Photography</h2>
                     <p className='text-lg mt-3'>A photography portfolio website.</p>
                     <div className='text-normal my-4'>
@@ -74,11 +74,11 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
+            <div className='lg:flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
                 <div>
                     <img className='rounded-2xl' src={project4} alt="" />
                 </div>
-                <div className='pr-10'>
+                <div className='lg:pr-10 lg:px-0 px-3'>
                     <h2 className='text-2xl font-semibold'>Enfield Bullet Exploration</h2>
                     <p className='text-lg mt-3'>A presentation website where presenting Enfield Bullet bike.</p>
                     <div className='text-normal my-4'>
@@ -95,11 +95,11 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
+            <div className='lg:flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
                 <div>
                     <img className='rounded-2xl' src={project5} alt="" />
                 </div>
-                <div className='pr-10'>
+                <div className='lg:pr-10 lg:px-0 px-3'>
                     <h2 className='text-2xl font-semibold'>Car Valley</h2>
                     <p className='text-lg mt-3'>Car's website where you can present your car's.</p>
                     <div className='text-normal my-4'>
@@ -116,11 +116,11 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
+            <div className='lg:flex gap-5 items-center rounded-2xl mb-10' style={{ boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }}>
                 <div>
                     <img className='rounded-2xl' src={project6} alt="" />
                 </div>
-                <div className='pr-10'>
+                <div className='lg:pr-10 lg:px-0 px-3'>
                     <h2 className='text-2xl font-semibold'>To Do App</h2>
                     <p className='text-lg mt-3'>A listing task website where you can add your daily activities.</p>
                     <div className='text-normal my-4'>
