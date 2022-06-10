@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Header from './Header';
+import MyProjects from './MyProjects';
 import MySkills from './MySkills';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Header></Header>
             <About></About>
             <MySkills></MySkills>
+            <MyProjects></MyProjects>
         </div>
     );
 };
