@@ -1,0 +1,140 @@
+[
+    {
+        "_id": "62a31d67c347f2684e6a56ec",
+        "picture": "https://i.ibb.co/hHj5M6b/project1.png",
+        "name": "Revo Part's Manufacture",
+        "description": "A manufacturing website where users can buy car part's.",
+        "feature": [
+            "Users can purchase products, cancel products and add feedback. This response will be featured on the home page.",
+            "Admins can view all users, add new products, update product stock, and even set up admin roles.",
+            "A digital payment system has been added so that users can easily make payments."
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "DaisyUI",
+            "Javascript",
+            "React",
+            "React Router",
+            "Firebase",
+            "React Query",
+            "React hook form",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "heroku",
+            "Json web token"
+        ]
+    },
+    {
+        "_id": "62a31d678b5b4878a3e7350b",
+        "picture": "https://i.ibb.co/C6vJx69/project2.png",
+        "name": "Gadget House",
+        "description": "A management warehouse website where electronic gadgets are stocked.",
+        "feature": [
+            "Authentication system has been added using email and password or Google sign in.",
+            "Users can update stock and delete products on this website.",
+            "Security patches have been added using JSON web tokens for validation."
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "Javascript",
+            "React",
+            "React Router",
+            "Firebase",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "heroku",
+            "Json web token"
+        ]
+    },
+    {
+        "_id": "62a31d6789967f76db8e5fd0",
+        "picture": "https://i.ibb.co/PmK1DwX/project3.png",
+        "name": "Davis Photography",
+        "description": "A photography portfolio website.",
+        "feature": [
+            "Authentication system has been added using email and password or Google sign in.",
+            "Users can see beautiful pictures in the portfolio section.",
+            "Checkout page added for payment."
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "React Bootstrap,",
+            "Javascript",
+            "React",
+            "React Router",
+            "Firebase",
+            "React toasts"
+        ]
+    },
+    {
+        "_id": "62a31d6727821ff30cbd0fd5",
+        "picture": "https://i.ibb.co/Z6SDVsC/project4.png",
+        "name": "Enfield Bullet Exploration",
+        "description": "A presentation website where presenting Enfield Bullet bike.",
+        "feature": [
+            "Beautiful header section added.",
+            "Beautiful graph charts added.",
+            "See what out customers say."
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Javascript",
+            "React",
+            "React Router"
+        ]
+    },
+    {
+        "_id": "62a31d675baead33fb25fc9a",
+        "picture": "https://i.ibb.co/R9DFStZ/project5.png",
+        "name": "Car Valley",
+        "description": "Car's website where you can present your car's.",
+        "feature": [
+            "Users can choose random car.",
+            "Users can pick one car by lottery system",
+            "User can clear dashboard and start choosing car's again."
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Javascript",
+            "React",
+            "React Router"
+        ]
+    },
+    {
+        "_id": "62a31d671ef10106e08019b7",
+        "picture": "https://i.ibb.co/Nx8nV5p/project6.png",
+        "name": "To Do App",
+        "description": "A listing task website where you can add your daily activities.",
+        "feature": [
+            "Users can add daily tasks.",
+            "User can delete task after complete.",
+            "Authentication system has been added using email and password or Google sign in."
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "Javascript",
+            "React",
+            "React Router",
+            "Firebase",
+            "React Query",
+            "React hook form",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "heroku"
+        ]
+    }
+]

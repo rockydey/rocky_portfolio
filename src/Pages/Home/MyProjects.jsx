@@ -5,81 +5,66 @@ import project3 from '../../assist/project3.png';
 import project4 from '../../assist/project4.png';
 import project5 from '../../assist/project5.png';
 import project6 from '../../assist/project6.png';
+import { useNavigate } from 'react-router-dom';
 
 const MyProjects = () => {
+    const navigate = useNavigate();
+    const handleDetails = () => {
+        navigate('/details')
+    }
     return (
-        <div className='my-10 mx-5 lg:mx-0' id='myproject'>
-            <h1 className='text-5xl text-center font-bold'>My Projects</h1>
-            <p className='text-2xl text-center mt-1'>Explore my all latest project with source code.</p>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-8 lg:mx-20'>
-                <div className="card bg-base-100 shadow-xl image-full">
-                    <figure><img src={project1} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-slate-50">Revo Part's Manufacture</h2>
-                        <p className='text-slate-100'>A manufacturing website where users can buy car part's.</p>
-                        <div className="card-actions justify-end">
-                            <a href='https://revo-parts-manufacture.web.app/' target='_blank' className="btn btn-primary font-semibold">Live Website</a>
-                            <a href='https://github.com/rockydey/revo-parts-manufacture-client' target='_blank' className="btn btn-primary font-semibold">Client Side</a>
-                            <a href='https://github.com/rockydey/revo-parts-manufacture-server' target='_blank' className="btn btn-primary font-semibold">Server Side</a>
+        <div className='bg-secondary md:p-10 p-5'>
+            <div className='my-10 mx-5 lg:mx-0' id='myproject'>
+                <h1 className='text-5xl text-center text-white font-bold'>My Projects</h1>
+                <p className='text-2xl text-center text-white mt-1'>Explore my all latest project with source code.</p>
+                <div className='mt-8 lg:mx-20'>
+                    <div className="carousel w-full">
+                        <div id="slide1" className="carousel-item relative w-full">
+                            <img src={project1} alt='' className="w-full" />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide4" className="btn btn-circle">❮</a>
+                                <a href="#slide2" className="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide2" className="carousel-item relative w-full">
+                            <img src={project2} alt='' className="w-full" />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide1" className="btn btn-circle">❮</a>
+                                <a href="#slide3" className="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide3" className="carousel-item relative w-full">
+                            <img src={project3} alt='' className="w-full" />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide2" className="btn btn-circle">❮</a>
+                                <a href="#slide4" className="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide4" className="carousel-item relative w-full">
+                            <img src={project4} alt='' className="w-full" />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide3" className="btn btn-circle">❮</a>
+                                <a href="#slide5" className="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide5" className="carousel-item relative w-full">
+                            <img src={project5} alt='' className="w-full" />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide4" className="btn btn-circle">❮</a>
+                                <a href="#slide6" className="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide6" className="carousel-item relative w-full">
+                            <img src={project6} alt='' className="w-full" />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide5" className="btn btn-circle">❮</a>
+                                <a href="#slide1" className="btn btn-circle">❯</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl image-full">
-                    <figure><img src={project2} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-slate-50">Gadget House</h2>
-                        <p className='text-slate-100'>A management warehouse website where electronic gadgets are stocked.</p>
-                        <div className="card-actions justify-end">
-                            <a href='https://laptop-warehouse-management.web.app/' target='_blank' className="btn btn-primary font-semibold">Live Website</a>
-                            <a href='https://github.com/rockydey/gadget-house-client' target='_blank' className="btn btn-primary font-semibold">Client Side</a>
-                            <a href='https://github.com/rockydey/gadget-house-server' target='_blank' className="btn btn-primary font-semibold">Server Side</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 shadow-xl image-full">
-                    <figure><img src={project3} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-slate-50">DAVIS PHOTOGRAPHY</h2>
-                        <p className='text-slate-100'>A Photography portfolio website.</p>
-                        <div className="card-actions justify-end">
-                            <a href='https://photography-portfolio-website.web.app/' target='_blank' className="btn btn-primary font-semibold">Live Website</a>
-                            <a href='https://github.com/rockydey/photography-portfolio' target='_blank' className="btn btn-primary font-semibold">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 shadow-xl image-full">
-                    <figure><img src={project4} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-slate-50">Enfield Bullet Exploration</h2>
-                        <p className='text-slate-100'>A presentation website where presenting Enfield Bullet bike.</p>
-                        <div className="card-actions justify-end">
-                            <a href='https://enfield-bullet-exploration-rocky.netlify.app/' target='_blank' className="btn btn-primary font-semibold">Live Website</a>
-                            <a href='https://github.com/rockydey/enfield-bullet-exploration' target='_blank' className="btn btn-primary font-semibold">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 shadow-xl image-full">
-                    <figure><img src={project5} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-slate-50">Car Valley</h2>
-                        <p className='text-slate-100'>Car's website where you can present your car's.</p>
-                        <div className="card-actions justify-end">
-                            <a href='https://car-valley-rocky.netlify.app/' target='_blank' className="btn btn-primary font-semibold">Live Website</a>
-                            <a href='https://github.com/rockydey/car-valley' target='_blank' className="btn btn-primary font-semibold">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 shadow-xl image-full">
-                    <figure><img src={project6} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-slate-50">To Do App</h2>
-                        <p className='text-slate-100'>A listing task website where you can add your daily activities.</p>
-                        <div className="card-actions justify-end">
-                            <a href='https://to-do-app-b7246.web.app/' target='_blank' className="btn btn-primary font-semibold">Live Website</a>
-                            <a href='https://github.com/rockydey/to-do-app-client' target='_blank' className="btn btn-primary font-semibold">Client Side</a>
-                            <a href='https://github.com/rockydey/to-do-app-server' target='_blank' className="btn btn-primary font-semibold">Server Side</a>
-                        </div>
-                    </div>
+                <div className='text-center mt-8'>
+                    <button onClick={handleDetails} className='btn btn-primary font-semibold text-lg'>See Details</button>
                 </div>
             </div>
         </div>

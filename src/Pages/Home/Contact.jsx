@@ -44,7 +44,7 @@ const Contact = () => {
                         <input name='Name' className='border-b-2 rounded-xl py-6 pl-5 md:pr-56 pr-10 mb-3' type="text" placeholder='Enter your name' /><br />
                         <input className='border-b-2 rounded-xl py-6 pl-5 md:pr-56 pr-10 mb-3' type="email" placeholder='Enter email address' /><br />
                         <input className='border-b-2 rounded-xl py-6 pl-5 md:pr-56 pr-10 mb-3' type="text" placeholder='Enter subject' /><br />
-                        <textarea className='border-b-2 rounded-xl py-6 pl-5 md:pr-56 pr-10 mb-3' name="message" id="" cols="24" rows="2" placeholder='Enter your message'></textarea><br />
+                        <textarea className='border-b-2 rounded-xl py-6 pl-5 md:pr-56 pr-10 mb-3' name="message" id="" cols="22" rows="2" placeholder='Enter your message'></textarea><br />
                         <button type="submit" className='btn btn-primary text-white font-semibold px-8 text-xl tracking-wider uppercase'>Send Message</button>
                     </form>
                 </div>

@@ -5,7 +5,7 @@ import { BiCloudDownload } from "react-icons/bi";
 const Header = () => {
     return (
         <div>
-            <div className="hero min-h-screen">
+            <div className="hero min-h-screen z-10">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-5">
                     <img style={{boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}} className='lg:w-2/4 md:w-3/4 rounded-xl' src={banner} alt="" />
                     <div>

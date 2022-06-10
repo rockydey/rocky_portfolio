@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
     return (
-        <header className='bg-slate-900' style={{ boxShadow: "0 2px 2px 2px rgba(15, 23, 42, 0.25)" }}>
+        <header className='bg-slate-900 sticky top-0 z-20' style={{ boxShadow: "0 2px 2px 2px rgba(15, 23, 42, 0.25)" }}>
             <nav className="h-[60px] w-full flex items-center relative py-2 px-0 text-slate-100">
                 <a href="/" className="text-3xl font-semibold lg:mx-28 md:mx-12 mx-6">
                     <span>Rocky</span> <span className='text-primary'>Dey</span>
